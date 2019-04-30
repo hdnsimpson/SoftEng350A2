@@ -53,16 +53,17 @@ body {
     .panel {
       padding: 0 18px;
       background-color: white;
-      display: none;
+      max-height: 0;
       overflow: hidden;
+      transition: max-height 0.2s ease-out;
     }
 
     .titlePanel {
       padding: 0 18px;
       background-color: white;
-      display: none;
+      max-height: 0;
       overflow: hidden;
-    }
+      transition: max-height 0.2s ease-out;
   
   ul {
     font-family: monospace;
