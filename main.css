@@ -1,0 +1,47 @@
+body {
+    font-family: helvetica;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .main {
+    margin-left: 230px;
+    font-size: 28px;
+    padding: 0px 10px;
+  }
+
+    h2 {
+      text-align: center;
+    }
+  
+  ul {
+    font-family: monospace;
+  }
+
+  li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
