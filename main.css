@@ -46,10 +46,16 @@ body {
       transition: 0.4s;
     }
 
-    .taskText {
+    .titleTaskText {
       float: left;
       width: 20%;
       font-size: 15pt;
+    }
+
+    .taskText {
+      float: left;
+      width: 20%;
+      font-size: 11pt;
     }
 
     .myProgress {
