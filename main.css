@@ -46,6 +46,27 @@ body {
       transition: 0.4s;
     }
 
+    .taskText {
+      float: left;
+      width: 20%;
+      font-size: 15pt;
+    }
+
+    .myProgress {
+      width: 60%;
+      float: left;
+      background-color: white;
+    }
+    
+    .myBar {
+      width: 75%;
+      height: 20px;
+      background-color: blue;
+      text-align: center;
+      line-height: 20px;
+      color: white; 
+    }
+
     .accordion:after {
       content: '\02795';
       font-size: 13px;
