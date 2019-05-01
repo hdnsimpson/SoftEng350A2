@@ -2,147 +2,126 @@ body {
     font-family: helvetica;
   }
 
-  .sidenav {
-    height: 100%;
-    width: 230px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #eee;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
+.sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-  .sidenav a {
-    padding: 10px 16px 10px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #444;
-    margin: auto;
-    display: block;
-    text-align: center;
-  }
+.sidenav a {
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #444;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
 
-  .sidenav hr {
-    margin: 10%;
-  }
+.sidenav hr {
+  margin: 10%;
+}
 
-  .main {
-    margin-left: 230px;
-    font-size: 28px;
-    padding: 0px 30px;
-  }
+.main {
+  margin-left: 230px;
+  font-size: 28px;
+  padding: 0px 30px;
+}
 
-    h2 {
-      text-align: center;
-      color: #444;
-    }
+h2 {
+  text-align: center;
+  color: #444;
+}
 
-    .accordion {
-      background-color: #eee;
-      color: #444;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      text-align: left;
-      border: none;
-      outline: none;
-      transition: 0.4s;
-    }
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
 
-    .accordionItem {
-      background-color: white;
-      color: #444;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      text-align: left;
-      border: none;
-      outline: none;
-      transition: 0.4s;
-    }
+.accordionItem {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
 
-    .active, .accordionItem:hover {
-      background-color: #eee;
-    }
+.active, .accordionItem:hover {
+  background-color: #eee;
+}
 
-    .panel hr {
-      margin: 0%;
-      width: 100%;
-    }
+.panel hr {
+  margin: 0%;
+  width: 100%;
+}
 
-    .titleTaskText {
-      float: left;
-      width: 20%;
-      font-size: 15pt;
-      color: #444;
-    }
+.titleTaskText {
+  float: left;
+  width: 20%;
+  font-size: 15pt;
+  color: #444;
+}
 
-    .taskText {
-      float: left;
-      width: 20%;
-      font-size: 11pt;
-      color: #444;
-    }
+.taskText {
+  float: left;
+  width: 20%;
+  font-size: 11pt;
+  color: #444;
+}
 
-    .myProgress {
-      width: 60%;
-      float: left;
-      background-color: white;
-    }
+.myProgress {
+  width: 60%;
+  float: left;
+  background-color: white;
+}
     
-    .myBar {
-      width: 0%;
-      height: 20px;
-      background-color: #444;
-      text-align: center;
-      line-height: 20px;
-      color: white; 
-    }
+.myBar {
+  width: 0%;
+  height: 20px;
+  background-color: #444;
+  text-align: center;
+  line-height: 20px;
+  color: white; 
+}
 
-    .accordion:after {
-      content: '\02795';
-      font-size: 13px;
-      color: #444;
-      float: right;
-      margin-left: 5px;
-    }
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #444;
+  float: right;
+  margin-left: 5px;
+}
     
-    .active:after {
-      content: "\2796";
-    }
+.active:after {
+  content: "\2796";
+}
 
-    .active, .accordion:hover {
-      background-color: #ccc;
-    }
+.active, .accordion:hover {
+  background-color: #ccc;
+}
 
-    .panel {
-      padding: 0;
-      background-color: white;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-      color: #444;
-    }
-
-    .titlePanel {
-      padding: 0 18px;
-      background-color: white;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-      color: #444;
-    }
-  
-  ul {
-    font-family: monospace;
-  }
-
-  li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
+.panel {
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: #444;
+}
