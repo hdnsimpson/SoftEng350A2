@@ -14,3 +14,21 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+var taskModal = document.getElementById('taskModal');
+var taskBtn = document.getElementById('taskBtn');
+var span = document.getElementsByClassName('close')[0];
+
+taskBtn.onclick = function() {
+  taskModal.style.display = "block";
+}
+
+span.onclick = function() {
+  taskModal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == taskModal) {
+    taskModal.style.display = "none";
+  }
+}
