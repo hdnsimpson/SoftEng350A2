@@ -26,6 +26,7 @@ body {
 
 .sidenav img {
   margin-left: 85px;
+  padding-top: 16px;
 }
 
 .sidenav hr {
@@ -36,6 +37,10 @@ body {
   margin-left: 230px;
   font-size: 28px;
   padding: 0px 30px;
+}
+
+.selectedsidenav {
+  background-color: #FFFFFF;
 }
 
 h2 {
