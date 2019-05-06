@@ -78,8 +78,18 @@ button.files{
 	left: 100px;
 }
 
-header{
+header, td{
 	text-align: center;
 }
+
+.incomplete{
+	color: #f44141;
+}
+
+.complete{
+	color: #42f44b;
+}
+	
+
 
 

@@ -1,0 +1,107 @@
+.container{
+	border-style: solid;
+	border-color: black;
+	border-width: 1.5px;
+}
+#mainPanel{
+	position: absolute;
+	width: 720px;
+	height: 480px;
+	border-width: 2px;
+}
+#Title{
+	position: absolute;
+	top: 70px;
+	left: 60px;
+	width: 400px;
+	height: 20px;
+}
+#Description{
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 400px;
+	height: 90px;
+}
+
+#Flags{
+	position: absolute;
+	top: 70px;
+	left: 480px;
+	width: 190px;
+	height: 120px;
+	overflow-y: scroll;
+}
+
+#DueDate{
+	position: absolute;
+	top: 202px;
+	left: 530px;
+	width: 200px;
+	height: 100px;
+}
+
+#Assigned{
+	position: absolute;
+	top: 270px;
+	left: 60px;
+	width: 200px;
+	height: 150px;
+	overflow-y: scroll;
+}
+
+#prereqs{
+	position: absolute;
+	top: 270px;
+	left: 310px;
+	width: 355px;
+	height: 150px;
+}
+
+button{
+	width: 60px;
+	height: 35px;
+}
+
+button.files{
+	width: 90px;
+	height: 30px;
+}
+
+#edit{
+	position: absolute;
+	top: 430px;
+	left: 540px;
+}
+
+#done{
+	position: absolute;
+	top: 430px;
+	left: 605px;
+}
+
+#titles{
+	position: absolute;
+	top: 238px;
+	left: 100px;
+}
+
+header, td{
+	text-align: center;
+}
+
+.incomplete{
+	color: #f44141;
+}
+
+.complete{
+	color: #42f44b;
+}
+
+#test{
+	width=12px;
+}
+	
+
+
+

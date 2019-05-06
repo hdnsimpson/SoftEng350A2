@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta charset=“UTF-8">
+	<link rel="stylesheet" href="EditTask.css">
+ </head>  
+ <body>
+  <div id="mainPanel" class="container">
+  	<header>
+  		<h1> Edit Task </h1>
+  	</header>
+	<form>
+		<br>
+			<input type="text" id="Title" class="container" placeholder="Task Title">
+		</br>
+		<br>
+			<input type="text" id="Description" class="container" placeholder="Description" align="top">
+		</br>
+  	</form>
+  	<div id="Flags" class="container">
+  		  <form>
+  			<input type="checkbox" name="person" value="Urgent" checked> Urgent<br>
+  			<input type="checkbox" name="person" value="Multi-person" checked> Multi-person<br>
+  			<input type="checkbox" name="person" value="Bug"> Bug<br>
+  			<input type="checkbox" name="person" value="QoL"> QoL<br>
+  			<input type="checkbox" name="person" value="Re-factor"> <input id="test" type="text" placeholder="flag name" align="top"><br>
+  		</form>
+  	</div>
+  	<div id="DueDate">
+  		<p> Due Date: 07/10/98 </p>
+  	</div>
+  	<div id="titles">
+  		<pre><b>Assigned to                   Select Prerequisite Tasks</b></pre>
+  	</div>
+  	<div id="Assigned" class="container">
+  		<form>
+  			<input type="checkbox" name="person" value="Allen" checked> Allen Wang<br>
+  			<input type="checkbox" name="person" value="Allen" checked> Frank WangMa<br>
+  			<input type="checkbox" name="person" value="Allen"> Hayden Simpson<br>
+  			<input type="checkbox" name="person" value="Allen"> Nathan Mills<br>
+  			<input type="checkbox" name="person" value="Allen"> Wendy Yao<br>
+			<input type="checkbox" name="person" value="Allen"> Pablo Escobar<br>
+  		</form>
+  	</div>
+    <table id="prereqs" class="container">
+      <tr>
+        <th>Task Name</th>
+        <th>Status</th>
+        <th>Associated Files</th>
+      </tr>
+      <tr>
+        <td>Task 1</td>
+        <td class="complete">Complete</td>
+        <td>
+          <button class="files">View Files</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 2</td>
+        <td class="complete">Complete</td>
+        <td>
+          <button class="files" disabled="true" >No Files</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 3</td>
+        <td class="incomplete">Incomplete</td>
+        <td>
+          <button class="files" disabled="true" >View Files</button>
+        </td>
+      </tr>
+    </table>
+    <button id="edit">Edit</button>
+    <button id="done">Done</button>
+  </div>
+  
+
+ 
+ </body>
