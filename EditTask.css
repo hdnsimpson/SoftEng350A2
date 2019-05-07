@@ -100,6 +100,20 @@ button.files{
 	height: 30px;
 }
 
+button.category, button.task{
+	height: 35px;
+	width: 75px;
+	border-color: black;
+	border-width: 1.5px;
+}
+
+button.selectedTask{
+	background-color: #4298f4;
+	border-color: #4156f4;
+	height: 35px;
+	width: 75px;
+}
+
 #edit{
 	position: absolute;
 	top: 430px;
@@ -122,13 +136,7 @@ header, td{
 	text-align: center;
 }
 
-.incomplete{
-	color: #f44141;
-}
 
-.complete{
-	color: #42f44b;
-}
 
 #test{
 	width=12px;
