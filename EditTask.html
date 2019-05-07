@@ -17,20 +17,33 @@
 			<input type="text" id="Description" class="container" placeholder="Description" align="top">
 		</br>
   	</form>
+	<div id="date">
+		<form>
+			<br>
+				<input type="checkbox" name="date" value="yes">Due Date:
+			</br>
+			<br>
+				<input type="date" id="datePicker">
+			</br>
+		<form>
+	</div>
   	<div id="Flags" class="container">
   		  <form>
   			<input type="checkbox" name="person" value="Urgent" checked> Urgent<br>
   			<input type="checkbox" name="person" value="Multi-person" checked> Multi-person<br>
   			<input type="checkbox" name="person" value="Bug"> Bug<br>
   			<input type="checkbox" name="person" value="QoL"> QoL<br>
-  			<input type="checkbox" name="person" value="Re-factor"> <input id="test" type="text" placeholder="flag name" align="top"><br>
+  			<input type="checkbox" name="person" value="Re-factor"> <br>
+			<form>
+				<br>
+					<input type="text" id="newFlag" class="container" placeholder="Enter Flag Name">
+				</br>
+			</form>
   		</form>
   	</div>
-  	<div id="DueDate">
-  		<p> Due Date: 07/10/98 </p>
-  	</div>
+	<button id="newFlagButton">Add new flag</button>
   	<div id="titles">
-  		<pre><b>Assigned to                   Select Prerequisite Tasks</b></pre>
+  		<pre><b>Assigned to                             Select Prerequisite Tasks</b></pre>
   	</div>
   	<div id="Assigned" class="container">
   		<form>
@@ -49,7 +62,7 @@
         <th>Associated Files</th>
       </tr>
       <tr>
-        <td>Task 1</td>
+        <td><button>Add new flag</button></td>
         <td class="complete">Complete</td>
         <td>
           <button class="files">View Files</button>
@@ -70,8 +83,8 @@
         </td>
       </tr>
     </table>
-    <button id="edit">Edit</button>
-    <button id="done">Done</button>
+    <button id="edit" class="menu">Edit</button>
+    <button id="done" class="menu">Done</button>
   </div>
   
 
