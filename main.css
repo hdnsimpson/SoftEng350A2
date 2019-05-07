@@ -111,7 +111,7 @@ h2 {
 }
 
 .accordion:after {
-  content: '\02795';
+  content: '\25BC';
   font-size: 13px;
   color: #444;
   float: right;
@@ -119,7 +119,7 @@ h2 {
 }
     
 .active:after {
-  content: "\2796";
+  content: "\25B2";
 }
 
 .active, .accordion:hover {
