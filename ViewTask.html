@@ -5,14 +5,14 @@
 	<link rel="stylesheet" href="ViewTask.css">
  </head>  
  <body>
-  <div id="mainPanel" class="container" style="position: absolute; width: 720px; height: 480px;">
+  <div id="mainPanel" class="modalContainer" style="position: absolute; width: 720px; height: 480px;">
   	<header>
   		<h1> Task Title </h1>
   	</header>
-  	<div id="Description" class="container" style="position: absolute; top: 70px; left: 60px; width: 600px; height: 120px;">
+  	<div id="Description" class="modalContainer" style="position: absolute; top: 70px; left: 60px; width: 600px; height: 120px;">
   		<p> Task Description </p>
   	</div>
-  	<div id="Flags" class="container" style="position: absolute; top: 210px; left: 60px; width: 450px; height: 30px;">
+  	<div id="Flags" class="modalContainer" style="position: absolute; top: 210px; left: 60px; width: 450px; height: 30px;">
   		<p> Flags: Urgent, Group Task </p>
   	</div>
   	<div id="DueDate" style="position: absolute; top: 202px; left: 530px; width: 200px; height: 100px;">
@@ -21,7 +21,7 @@
   	<div id="titles" style="position: absolute; top: 238px; left: 100px;">
   		<pre><b>Assigned to                                  Prerequisites</b></pre>
   	</div>
-  	<div id="Assigned" class="container" style="position: absolute; top: 270px; left: 60px; width: 200px; height: 150px; overflow-y: scroll;">
+  	<div id="Assigned" class="modalContainer" style="position: absolute; top: 270px; left: 60px; width: 200px; height: 150px; overflow-y: scroll;">
   		<form>
   			<input type="checkbox" name="person" value="Allen" disabled checked> Allen Wang<br>
   			<input type="checkbox" name="person" value="Allen" disabled checked> Frank WangMa<br>
@@ -31,7 +31,7 @@
         <input type="checkbox" name="person" value="Allen" disabled> Pablo Escobar<br>
   		</form>
   	</div>
-    <table id="prereqs" class="container" style="position: absolute; top: 270px; left: 310px; width: 355px; height: 150px;">
+    <table id="prereqs" class="modalContainer" style="position: absolute; top: 270px; left: 310px; width: 355px; height: 150px;">
       <tr>
         <th>Task Name</th>
         <th>Status</th>
