@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="main.css">
   </head>
 
-  <body>
+  <body class="mainBody">
     <div class="main_container">
       <div class="sidenav">
         <img src="Logos/group.png" alt="Project Master" height="60" width="60">
@@ -199,7 +199,66 @@
         <div id="taskModal" class="taskModal">
           <div class="taskModalContent">
             <span class="close">&times;</span>
-            <p>Example Modal</p>
+
+			<div id="mainPanel" class="modalContainer" style="position: absolute; width: 720px; height: 480px;">
+				<header class="modalHeader">
+					<h1> Task Title </h1>
+				</header>
+				<div id="Description" class="modalContainer" style="position: absolute; top: 70px; left: 60px; width: 600px; height: 120px;">
+					<p> Task Description </p>
+				</div>
+				<div id="Flags" class="modalContainer" style="position: absolute; top: 210px; left: 60px; width: 450px; height: 30px;">
+					<p> Flags: Urgent, Group Task </p>
+				</div>
+				<div id="DueDate" style="position: absolute; top: 202px; left: 530px; width: 200px; height: 100px;">
+					<p> Due Date: 07/10/98 </p>
+				</div>
+				<div id="titles" style="position: absolute; top: 238px; left: 100px;">
+					<pre><b>Assigned to                                  Prerequisites</b></pre>
+				</div>
+				<div id="Assigned" class="modalContainer" style="position: absolute; top: 270px; left: 60px; width: 200px; height: 150px; overflow-y: scroll;">
+					<form>
+						<input type="checkbox" name="person" value="Allen" disabled checked> Allen Wang<br>
+						<input type="checkbox" name="person" value="Allen" disabled checked> Frank WangMa<br>
+						<input type="checkbox" name="person" value="Allen" disabled> Hayden Simpson<br>
+						<input type="checkbox" name="person" value="Allen" disabled> Nathan Mills<br>
+						<input type="checkbox" name="person" value="Allen" disabled> Wendy Yao<br>
+						<input type="checkbox" name="person" value="Allen" disabled> Pablo Escobar<br>
+					</form>
+				</div>
+				<table id="prereqs" class="modalContainer" style="position: absolute; top: 270px; left: 310px; width: 355px; height: 150px;">
+					<tr>
+						<th>Task Name</th>
+						<th>Status</th>
+						<th>Associated Files</th>
+					</tr>
+					<tr>
+						<td>Task 1</td>
+						<td class="modalComplete">Complete</td>
+						<td>
+							<button class="files">View Files</button>
+						</td>
+					</tr>
+					<tr>
+						<td>Task 2</td>
+						<td class="modalComplete">Complete</td>
+						<td>
+							<button class="files" disabled="true" >No Files</button>
+						</td>
+					</tr>
+					<tr>
+						<td>Task 3</td>
+						<td class="incomplete">Incomplete</td>
+						<td>
+							<button class="files" disabled="true" >View Files</button>
+						</td>
+					</tr>
+				</table>
+				<button id="edit" style="position: absolute; top: 430px; left: 540px;">Edit</button>
+				<button id="done" style="position: absolute; top: 430px; left: 605px;">Done</button>
+			</div>
+			
+			
           </div>
         </div>
         

@@ -1,0 +1,62 @@
+.modalContainer{
+	border-style: solid;
+	border-color: black;
+	border-width: 1.5px;
+}
+#mainPanel{
+	border-width: 2px;
+}
+
+#Flags{
+
+}
+
+#DueDate{
+
+}
+
+#Assigned{
+	
+}
+
+#prereqs{
+
+}
+
+button{
+	width: 60px;
+	height: 35px;
+}
+
+button.files{
+	width: 90px;
+	height: 30px;
+}
+
+#edit{
+
+}
+
+#done{
+
+}
+
+#titles{
+
+}
+
+header, td{
+	text-align: center;
+}
+
+.incomplete{
+	color: #f44141;
+}
+
+.complete{
+	color: #42f44b;
+}
+	
+
+
+
