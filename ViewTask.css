@@ -4,50 +4,23 @@
 	border-width: 1.5px;
 }
 #mainPanel{
-	position: absolute;
-	width: 720px;
-	height: 480px;
 	border-width: 2px;
-}
-#Description{
-	position: absolute;
-	top: 70px;
-	left: 60px;
-	width: 600px;
-	height: 120px;
 }
 
 #Flags{
-	position: absolute;
-	top: 210px;
-	left: 60px;
-	width: 450px;
-	height: 30px;
+
 }
 
 #DueDate{
-	position: absolute;
-	top: 202px;
-	left: 530px;
-	width: 200px;
-	height: 100px;
+
 }
 
 #Assigned{
-	position: absolute;
-	top: 270px;
-	left: 60px;
-	width: 200px;
-	height: 150px;
-	overflow-y: scroll;
+	
 }
 
 #prereqs{
-	position: absolute;
-	top: 270px;
-	left: 310px;
-	width: 355px;
-	height: 150px;
+
 }
 
 button{
@@ -61,21 +34,15 @@ button.files{
 }
 
 #edit{
-	position: absolute;
-	top: 430px;
-	left: 540px;
+
 }
 
 #done{
-	position: absolute;
-	top: 430px;
-	left: 605px;
+
 }
 
 #titles{
-	position: absolute;
-	top: 238px;
-	left: 100px;
+
 }
 
 header, td{

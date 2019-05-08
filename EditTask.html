@@ -5,29 +5,29 @@
 	<link rel="stylesheet" href="EditTask.css">
  </head>  
  <body>
-  <div id="mainPanel" class="container">
+  <div id="mainPanel" class="container" style="position: absolute; width: 720px; height: 480px;">
   	<header>
   		<h1> Edit Task </h1>
   	</header>
 	<form>
 		<br>
-			<input type="text" id="Title" class="container" placeholder="Task Title">
+			<input type="text" id="Title" class="container" placeholder="Task Title" style="position: absolute; top: 70px; left: 60px; width: 400px; height: 20px;">
 		</br>
 		<br>
-			<input type="text" id="Description" class="container" placeholder="Description" align="top">
+			<input type="text" id="Description" class="container" placeholder="Description" align="top" style="position: absolute;top: 100px;left: 60px;width: 400px;height: 90px;">
 		</br>
   	</form>
-	<div id="date">
+	<div id="date" style="position: absolute;top: 200px;left: 60px;width: 150px;height: 30px;">
 		<form>
 			<br>
 				<input type="checkbox" name="date" value="yes">Due Date:
 			</br>
 			<br>
-				<input type="date" id="datePicker">
+				<input type="date" id="datePicker" style="position: absolute;top: 15px;left: 90px;width: 125px;height: 20px;">
 			</br>
 		<form>
 	</div>
-  	<div id="Flags" class="container">
+  	<div id="Flags" class="container" style="position: absolute;top: 70px;left: 480px;width: 190px;height: 120px;overflow-y: scroll;">
   		  <form>
   			<input type="checkbox" name="person" value="Urgent" checked> Urgent<br>
   			<input type="checkbox" name="person" value="Multi-person" checked> Multi-person<br>
@@ -36,16 +36,16 @@
   			<input type="checkbox" name="person" value="Re-factor"> <br>
 			<form>
 				<br>
-					<input type="text" id="newFlag" class="container" placeholder="Enter Flag Name">
+					<input type="text" id="newFlag" class="container" placeholder="Enter Flag Name" style="position: absolute;top: 80px;left: 22px;width: 130px;height: 17px;">
 				</br>
 			</form>
   		</form>
   	</div>
-	<button id="newFlagButton">Add new flag</button>
-  	<div id="titles">
+	<button id="newFlagButton" style="position: absolute;top: 200px;left: 520px;width: 100px;">Add new flag</button>
+  	<div id="titles" style="position: absolute;top: 238px;left: 105px;">
   		<pre><b>Assigned to                             Select Prerequisite Tasks</b></pre>
   	</div>
-  	<div id="Assigned" class="container">
+  	<div id="Assigned" class="container" style="position: absolute;top: 270px;left: 60px;width: 200px;height: 150px;overflow-y: scroll;">
   		<form>
   			<input type="checkbox" name="person" value="Allen" checked> Allen Wang<br>
   			<input type="checkbox" name="person" value="Allen" checked> Frank WangMa<br>
@@ -55,7 +55,7 @@
 			<input type="checkbox" name="person" value="Allen"> Pablo Escobar<br>
   		</form>
   	</div>
-    <table id="prereqs" class="container">
+    <table id="prereqs" class="container" style="position: absolute;top: 270px;left: 310px;width: 355px;height: 150px;">
       <tr>
         <th><button class="category">GUI</button></th>
         <th><button class="category">Login</button></th>
@@ -77,8 +77,8 @@
         <td><button class="selectedTask">Task9</button></td>
       </tr>
     </table>
-    <button id="edit" class="menu">Edit</button>
-    <button id="done" class="menu">Done</button>
+    <button id="edit" class="menu" style="position: absolute;top: 430px;left: 540px;">Edit</button>
+    <button id="done" class="menu" style="position: absolute;top: 430px;left: 605px;">Done</button>
   </div>
   
 

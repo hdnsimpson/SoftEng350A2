@@ -5,23 +5,23 @@
 	<link rel="stylesheet" href="ViewTask.css">
  </head>  
  <body>
-  <div id="mainPanel" class="container">
+  <div id="mainPanel" class="container" style="position: absolute; width: 720px; height: 480px;">
   	<header>
   		<h1> Task Title </h1>
   	</header>
-  	<div id="Description" class="container">
+  	<div id="Description" class="container" style="position: absolute; top: 70px; left: 60px; width: 600px; height: 120px;">
   		<p> Task Description </p>
   	</div>
-  	<div id="Flags" class="container">
+  	<div id="Flags" class="container" style="position: absolute; top: 210px; left: 60px; width: 450px; height: 30px;">
   		<p> Flags: Urgent, Group Task </p>
   	</div>
-  	<div id="DueDate">
+  	<div id="DueDate" style="position: absolute; top: 202px; left: 530px; width: 200px; height: 100px;">
   		<p> Due Date: 07/10/98 </p>
   	</div>
-  	<div id="titles">
+  	<div id="titles" style="position: absolute; top: 238px; left: 100px;">
   		<pre><b>Assigned to                                  Prerequisites</b></pre>
   	</div>
-  	<div id="Assigned" class="container">
+  	<div id="Assigned" class="container" style="position: absolute; top: 270px; left: 60px; width: 200px; height: 150px; overflow-y: scroll;">
   		<form>
   			<input type="checkbox" name="person" value="Allen" disabled checked> Allen Wang<br>
   			<input type="checkbox" name="person" value="Allen" disabled checked> Frank WangMa<br>
@@ -31,7 +31,7 @@
         <input type="checkbox" name="person" value="Allen" disabled> Pablo Escobar<br>
   		</form>
   	</div>
-    <table id="prereqs" class="container">
+    <table id="prereqs" class="container" style="position: absolute; top: 270px; left: 310px; width: 355px; height: 150px;">
       <tr>
         <th>Task Name</th>
         <th>Status</th>
@@ -59,8 +59,8 @@
         </td>
       </tr>
     </table>
-    <button id="edit">Edit</button>
-    <button id="done">Done</button>
+    <button id="edit" style="position: absolute; top: 430px; left: 540px;">Edit</button>
+    <button id="done" style="position: absolute; top: 430px; left: 605px;">Done</button>
   </div>
   
 
