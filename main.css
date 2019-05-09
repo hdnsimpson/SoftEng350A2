@@ -169,8 +169,8 @@ h2 {
 }
 
 .taskModalContent {
-  background-color: #eee;
-  color: #444;
+  background-color: #ffffff;
+  color: #ffffff;
   border: 1px solid #444;
   width: 60%;
   height: 60%;
@@ -227,6 +227,25 @@ p{
  font-size: 13pt;
  color: #444;
 }
-th, li, td{
+th, li, td, form{
 	font-size: 13pt;
+}
+
+button.category, button.task{
+	height: 33px;
+	width: 75px;
+	border-color: black;
+	border-width: 1.5px;
+}
+
+button.selectedTask{
+	background-color: #4298f4;
+	border-color: #4156f4;
+	height: 33px;
+	width: 75px;
+}
+
+#Flags{
+	font-size: 13pt;
+	font-family: helvetica;
 }
