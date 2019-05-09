@@ -244,10 +244,15 @@ h3 {
 }
 
 .modalContainer{
-	border-width: 1.5px;
+  border-width: 1.5px;
+  background-color: #eee;
+  padding-right: 10px;
+  padding-left: 18px;
+  
 }
 #mainPanel{
-	border-width: 2px;
+  border-width: 2px;
+  background-color: white;
 }
 
 .main hr {
@@ -256,16 +261,20 @@ h3 {
 }
 .incomplete{
 	color: #f44336;
-	font-weight: bold;
+  font-weight: bold;
+  text-align: center;
 }
 
 .modalComplete{
 	color: #4caf50;
-	font-weight: bold;
+  font-weight: bold;
+  text-align: center;
 }
 
 .modalHeader, td{
-	text-align: center;
+  text-align: left;
+  margin-top: -20px;
+  padding: 18px;
 }
 
 button.files{
@@ -337,4 +346,15 @@ button.selectedTask{
 #Flags{
 	font-size: 13pt;
 	font-family: helvetica;
+}
+
+
+hr.vertical {
+  width: 0px;
+  height: 43%;
+  color: #444;
+}
+
+.tableText {
+  text-align: center;
 }
