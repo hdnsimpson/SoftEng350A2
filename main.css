@@ -11,7 +11,10 @@ body.mainBody {
   left: 0;
   background-color: #eee;
   overflow-x: hidden;
-  padding-top: 20px;
+}
+
+.sidenavtitle {
+  background-color: #444;
 }
 
 .sidenav a {
@@ -19,6 +22,16 @@ body.mainBody {
   text-decoration: none;
   font-size: 25px;
   color: #444;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.sidenav b {
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #eee;
   margin: auto;
   display: block;
   text-align: center;
