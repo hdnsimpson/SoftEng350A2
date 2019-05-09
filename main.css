@@ -60,6 +60,7 @@ h3 {
   text-align: left;
   color: #444;
   padding-bottom:20px;
+  margin-bottom: 10px;
   border-bottom: solid;
   border-width: thin;
 }
@@ -118,18 +119,37 @@ h3 {
 }
 
 .overallProgress {
-  width: 80%%;
-  height: 20px;
+  height: 25px;
   padding: 18px;
   text-align: left;
-  background-color: #eee;
+  background-color: white;
   border-bottom-color: solid;
+  
+}
+
+.overallProgressBar {
+  width: 70%;
+  float: left;
+  background-color: white;
+  border-color: #444;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.myOverallProgress {
+  width: 0%;
+  height: 20px;
+  background-color: #444;
+  text-align: center
 }
 
 .myProgress {
   width: 60%;
   float: left;
   background-color: white;
+  border-color: #444;
+  border-style: solid;
+  border-width: 1px;
 }
     
 .myBar {
@@ -230,6 +250,10 @@ h3 {
 	border-width: 2px;
 }
 
+.main hr {
+  margin-top: 1%;
+  width: 100%;
+}
 .incomplete{
 	color: #f44336;
 	font-weight: bold;
