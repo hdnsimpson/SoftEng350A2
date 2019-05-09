@@ -11,7 +11,10 @@ body.mainBody {
   left: 0;
   background-color: #eee;
   overflow-x: hidden;
-  padding-top: 20px;
+}
+
+.sidenavtitle {
+  background-color: #444;
 }
 
 .sidenav a {
@@ -19,6 +22,16 @@ body.mainBody {
   text-decoration: none;
   font-size: 25px;
   color: #444;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.sidenav b {
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #eee;
   margin: auto;
   display: block;
   text-align: center;
@@ -43,9 +56,12 @@ body.mainBody {
   background-color: #FFFFFF;
 }
 
-h2 {
-  text-align: center;
+h3 {
+  text-align: left;
   color: #444;
+  padding-bottom:20px;
+  border-bottom: solid;
+  border-width: thin;
 }
 
 .accordion {
@@ -58,6 +74,7 @@ h2 {
   border: none;
   outline: none;
   transition: 0.4s;
+  top: 40px;
 }
 
 .accordionItem {
@@ -82,10 +99,15 @@ h2 {
 }
 
 .titleTaskText {
+  margin-top: -10px;
   float: left;
   width: 20%;
   font-size: 15pt;
   color: #444;
+}
+
+.titleTaskText small {
+  font-size: 10pt;
 }
 
 .taskText {
@@ -93,6 +115,15 @@ h2 {
   width: 20%;
   font-size: 11pt;
   color: #444;
+}
+
+.overallProgress {
+  width: 80%%;
+  height: 20px;
+  padding: 18px;
+  text-align: left;
+  background-color: #eee;
+  border-bottom-color: solid;
 }
 
 .myProgress {
@@ -215,12 +246,46 @@ h2 {
 
 button.files{
 	width: 90px;
-	height: 30px;
+  height: 30px;
+  background-color: #eee;
+  color: black;
+  border: 2px solid #444;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button.filesOff{
+	width: 90px;
+  height: 30px;
+  background-color: #eee;
+  color: black;
+  border: 2px solid #999;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 button.modalMenuButtons{
 	height: 6%;
-	width: 10%
+  width: 10%;
+  width: 90px;
+  height: 30px;
+  background-color: #eee;
+  color: black;
+  border: 2px solid #444;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 p{
