@@ -19,12 +19,39 @@ var taskModal = document.getElementById('taskModal');
 var taskBtn = document.getElementById('taskBtn');
 var span = document.getElementsByClassName('close')[0];
 
+var editModal = document.getElementById('editModal');
+var editBtn = document.getElementById('editButton');
+var saveBtn = document.getElementById('saveButton');
+var doneBtn = document.getElementById('doneButton');
+var doneBtn2 = document.getElementById('doneButton2');
+
 taskBtn.onclick = function() {
   taskModal.style.display = "block";
 }
 
 span.onclick = function() {
   taskModal.style.display = "none";
+  editModal.style.display = "none";
+}
+
+editBtn.onclick = function() {
+	taskModal.style.display = "none";
+	editModal.style.display = "block";
+}
+
+saveBtn.onclick = function() {
+	taskModal.style.display = "block";
+	editModal.style.display = "none";
+}
+
+doneBtn.onclick = function() {
+	taskModal.style.display = "none";
+	editModal.style.display = "none";
+}
+
+doneBtn2.onclick = function() {
+	taskModal.style.display = "none";
+	editModal.style.display = "none";
 }
 
 window.onclick = function(event) {
