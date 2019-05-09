@@ -246,12 +246,46 @@ h3 {
 
 button.files{
 	width: 90px;
-	height: 30px;
+  height: 30px;
+  background-color: #eee;
+  color: black;
+  border: 2px solid #444;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button.filesOff{
+	width: 90px;
+  height: 30px;
+  background-color: #eee;
+  color: black;
+  border: 2px solid #999;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 button.modalMenuButtons{
 	height: 6%;
-	width: 10%
+  width: 10%;
+  width: 90px;
+  height: 30px;
+  background-color: #eee;
+  color: black;
+  border: 2px solid #444;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 p{
