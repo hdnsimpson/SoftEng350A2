@@ -335,7 +335,7 @@ th, li, td, form{
 	font-size: 13pt;
 }
 
-button.category, button.task{
+button.task{
 	height: 33px;
 	width: 75px;
 	border-color: black;
@@ -349,6 +349,9 @@ button.selectedTask{
 	width: 75px;
 }
 
+.category {
+  background-color: #ddd;
+}
 #Flags{
 	font-size: 13pt;
 	font-family: helvetica;
