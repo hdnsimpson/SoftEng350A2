@@ -336,8 +336,8 @@ th, li, td, form{
 }
 
 button.task{
-	height: 33px;
-	width: 75px;
+	height: 45px;
+	width: 125px;
 	border-color: black;
 	border-width: 1.5px;
 }
@@ -345,8 +345,8 @@ button.task{
 button.selectedTask{
 	background-color: #4298f4;
 	border-color: #4156f4;
-	height: 33px;
-	width: 75px;
+	height: 45px;
+	width: 125px;
 }
 
 .category {
