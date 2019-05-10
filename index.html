@@ -297,13 +297,29 @@
 							</br>
 						<form>
 					</div>
-					<div id="Flags" class="container" style="position: absolute;top: 15%;left: 67%;width: 26%;height: 25%;">
+					<div id="Flags" class="container" style="position: absolute;top: 15%;left: 70%;width: 26%;height: 25%; overflow-y: auto;">
 						  <form>
-							<input type="checkbox" name="person" value="Urgent" checked> Urgent<br>
-							<input type="checkbox" name="person" value="Multi-person" checked> Group Task<br>
-							<input type="checkbox" name="person" value="Bug"> Bug<br>
-							<input type="checkbox" name="person" value="QoL"> QoL<br>
-							<input type="checkbox" name="person" value="Re-factor"> <br>
+              <label class="container"><pre style="font-family: Helvetica;">      Urgent</pre>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"><pre style="font-family: Helvetica;">      Group Task</pre>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"><pre style="font-family: Helvetica;">      Bug</pre>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"><pre style="font-family: Helvetica;">      QoL</pre>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"><pre style="font-family: Helvetica;">      Refactor</pre>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+						  </form>
 							<form>
 								<br>
 									<input type="text" id="newFlag" class="container" placeholder="Enter Flag Name" style="position: absolute;top: 83px;left: 22px;width: 130px;height: 17px;">
